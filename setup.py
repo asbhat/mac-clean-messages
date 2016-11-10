@@ -47,8 +47,8 @@ setup(
     # for example:
     # $ pip install -e .[dev,test]
     extras_require={
-        'dev': ['nose'],
-        'test': ['nose'],
+        'dev': ['pytest'],
+        'test': ['pytest'],
     },
     package_data={
         'maccleanmessages': ['config/*.cfg'],
